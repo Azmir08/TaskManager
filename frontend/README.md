@@ -22,3 +22,7 @@
 - dotenv
 - exceljs
 - nodemon --save-dev // install into devdependencies
+
+# Generate JWT Token
+
+- node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
